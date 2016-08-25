@@ -1,4 +1,4 @@
 # SpringBoot
-Standlone, production ready Spring based applications
+Stand-lone, production ready Spring based applications that "just run"
 
 UML tool -> Class design
