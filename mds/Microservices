@@ -51,11 +51,11 @@ Core Microservice Development Patterns
 	(Spring Boot)Service Granularity: too coarse-grained => overlap into different business problems -> difficult to maintain; too fine-grained -> increases complexity; turn app into “dumb” data abstraction layer
 	(Spring Boot)Communication Protocols: JSON
 	(Spring Boot)Interface Desgin
-	(Spring Cloud config)Configuration Management
+	(Spring Cloud Config - Git, Netflix Eureka, Consul)Configuration Management
 	(Spring Cloud Stream)Event Processing
 Microservice Routing Patterns
 	(Spring Cloud/Netflix Zuul)Service Routing: single logic URL; acts as policy enforcement point like authorization, authentication and content checking
-	(Spring Cloud/Netflix Eureka)Service Discovery: abstracts physical location
+	(Spring Cloud/Netflix Eureka/Consul)Service Discovery: abstracts physical location
 Microservice Client Resiliency Patterns
 	(Spring Cloud/Netflix Ribbon)Client-side load balancing: 
 	(Spring Cloud/Netflix Hystrix)Circuit Breakers Pattern (not repeatedly call back; instead fail-fast)
@@ -67,8 +67,4 @@ Microservice Build/Deployment Patterns
 	(Docker)Immutable Servers
 	(Travis CI/Docker)Phoenix Servers
 
-Spring Boot:
-	Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
-Spring Cloud Config:
-	Handles management of application configuration data through centralized service
-	Integrates with Git, Consul, Eureka
+Spring Boot: Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
