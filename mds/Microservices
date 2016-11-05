@@ -66,4 +66,4 @@ Microservice Build/Deployment Patterns
 	(Docker)Immutable Servers
 	(Travis CI/Docker)Phoenix Servers
 
- 
+Spring Boot: Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
