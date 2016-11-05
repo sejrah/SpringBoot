@@ -52,7 +52,7 @@ Core Microservice Development Patterns
 	(Spring Boot)Communication Protocols: JSON
 	(Spring Boot)Interface Desgin
 	(Spring Cloud Config - Git, Netflix Eureka, Consul)Configuration Management
-	(Spring Cloud Stream)Event Processing
+	(Spring Cloud Stream - RabbitMQ, Kafka)Event Processing
 Microservice Routing Patterns
 	(Spring Cloud/Netflix Zuul)Service Routing: single logic URL; acts as policy enforcement point like authorization, authentication and content checking
 	(Spring Cloud/Netflix Eureka/Consul)Service Discovery: abstracts physical location
