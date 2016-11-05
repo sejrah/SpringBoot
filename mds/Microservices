@@ -1,6 +1,7 @@
 To Do:
 HTTP Resource API
 JSON
+Netflix - Eureka, Zuul, Ribbon, and Hystrix
 
 Definition:
 The term "Microservice Architecture" describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data.
@@ -66,4 +67,7 @@ Microservice Build/Deployment Patterns
 	(Docker)Immutable Servers
 	(Travis CI/Docker)Phoenix Servers
 
-Spring Boot: Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
+Spring Boot:
+	Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
+Spring Cloud Config:
+	
