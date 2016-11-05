@@ -21,6 +21,7 @@ Talking points:
 •	Hard to keep up with modular structure over time
 •	Scaling requires entire application scaling
 •	Spring Boot: build Java-based, REST oriented microservices quickly; then package and deploy it without need for external application container
+		Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
 •	Spring Cloud: wraps popular cloud management microservice frameworks
 
 Characteristics:
@@ -66,5 +67,3 @@ Microservice Build/Deployment Patterns
 	(Docker)Infrastructure as Code
 	(Docker)Immutable Servers
 	(Travis CI/Docker)Phoenix Servers
-
-Spring Boot: Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
