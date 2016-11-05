@@ -70,4 +70,5 @@ Microservice Build/Deployment Patterns
 Spring Boot:
 	Simplifies core task - Building REST-based microservice (HTTP-style verbs to URLs; JSON); maps Java exceptions to HTTP error codes
 Spring Cloud Config:
-	
+	Handles management of application configuration data through centralized service
+	Integrates with Git, Consul, Eureka
