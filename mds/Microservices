@@ -69,3 +69,20 @@ Microservice Build/Deployment Patterns
 	(Docker)Infrastructure as Code
 	(Docker)Immutable Servers
 	(Travis CI/Docker)Phoenix Servers
+
+12-Factor Applications:
+	Application/App - Single deployable unit
+	Distributed system - multiple collaborating deployable-s (applications)
+	1. Code base: Each deployable app is tracked as one code base tracked in revision control.
+	2. Dependencies: An app explicitly declares and isolates dependencies via appropriate tooling (e.g. Maven) rather than depending on implicitley realized dependencies in its deployment environment.
+	3. Config: Configuration or anything that is likely to differ between deployment environment (e.g. development, staging, production) is injected via operating system-level environment variables.
+	4.  Backing services: such as database or message brokers, are treated as attached resources and consumed identically across all environments.
+	5. Build, release, run: The stages of building a deployable app artifact, combining artifact with configuration, and starting one or more processes from that artifact/configuration combination, are strictly separated.
+	6. Processes: The app executes as one or more stateless processes (e.g. master/workers) that share nothing. Any necessary state is externalized to backing services (cache, object store, etc.)
+	7. Port binding: The app is self-contained and exports any/all services via port binding (including HTTP).
+	8. Concurrency: Concurrency is usually accomplished by scaling out app processes horizontally.
+	9. Disposabilitiy: Robustness is maximized via processes that start up quickly and shut down gracefully.
+	10. Dev/prod parity: Continuous delivery and deployment are enabled by keeping development, staging and production environemtns as similar as possible.
+	11. Logs: Rather than managing logfiles, treat logs as event streams, allowing the execution environment to collect, aggregate, index, and analyze the events via centralized services.
+	12. Admin processes: Administrative or management tasks, such as database migrations, are executed as one-off processes in environemtns identical to the app's long-running processes.
+
