@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="livelessons-configuration-basic"/>
+<aop-project name="livelessons-bootstrap-autoconfiguration"/>
+<aop-project name="livelessons-bootstrap-maven"/>
+</aop-reference-model>

@@ -1,0 +1,26 @@
+package demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+public class BootstrapMavenApplication extends SpringBootServletInitializer {
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		// TODO Auto-generated method stub
+		//return super.configure(application);
+		return application.sources(BootstrapMavenApplication.class)
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(BootstrapMavenApplication.class, args);
+	}
+
+}

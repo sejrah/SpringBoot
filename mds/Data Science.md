@@ -10,8 +10,8 @@ Future jobs: Weakness in Robots and computers -> Robots weak in pattern recognit
 
 Commodity capital replaced by intellectual capital -> coal to rock and roll
 
-Data Science skills: Python, R, SQL, NoSQL, Git, Spark, Hadoop, UNIX, Excel, Tableau
 http://explore-data-science.thisismetis.com/about
+
 Linear Regression
 Logistic Regression
 K-means neighbors 
@@ -35,38 +35,24 @@ What it’s not? Retrospective Analysis like Business Intelligence (What happene
 
 What it is? Predictive Analysis (What will happen), Real-time Analysis (What should I do), Machine Learning (interact with ML System in real time)
 
-Involves:
-	Find data sources
-	Acquire data
-	Cleaning and Transform data
-	Understanding relationship in data
-	Presenting results
-	Deliver value from data
+Involves: Find data sources, Acquire data, Cleaning and Transform data, Understanding relationship in data, Presenting results, Deliver value from data
 
-Process: It’s iterative process with following activities:
-	Data selection
-	Preprocessing
-	Transformation
-	Data mining
-	Interpretation and evaluation
+Process: It’s iterative process with following activities: Data selection, Preprocessing, Transformation, Data mining, Interpretation and evaluation
 
-CCC Big Data Pipeline
+CCC Big Data Pipeline:
 	Acquisition/Recording, Extraction/Cleaning/Annotation, Integration/Aggregation/Representation, Analysis/Modeling, Interpretation
 	Big Data needs: Heterogeneity, Scale, Timeliness, Privacy, Human Collaboration
-KDD (Knowledge Discovery in Databases) Process
-	Selection, Preprocessing, Transformation, Data Mining, Interpretation/Evaluation
-CRISP-DM (CRoss Industry Standard Process for Data Mining)
-	Business Understanding, Data Understanding, Data Interpretation, Modeling, Evaluation, Deployment
-	Business Understanding: What do you really want to accomplish?
 	
+KDD (Knowledge Discovery in Databases) Process:
+	Selection, Preprocessing, Transformation, Data Mining, Interpretation/Evaluation
 
-Tools: Azure ML, R, Python
+CRISP-DM (CRoss Industry Standard Process for Data Mining):
+	Business Understanding, Data Understanding, Data Interpretation, Modeling, Evaluation, Deployment
+	Business Understanding: What do you really want to accomplish? What are the constraints? What are the risks? How will you evaluate the quality of the results?
+	Modeling: Predictive modeling mostly mean machine learning or statistical modeling, Problem types: Classification, Regression, Clustering, Recommendation
+	Model building is predictive, Policy Construction is prescriptive
+
+Tools: Azure ML, R (R Studio), Python (Spyder), SQL, NoSQL, Git, Spark, Hadoop, UNIX, Excel, Tableau, Cortana Intelligence Suite
 Techniques:
-
-ML Problem types:
-	Classification
-	Regression
-	Clustering
-	Recommendation
 
 Subspace Clustering
