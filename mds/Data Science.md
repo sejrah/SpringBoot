@@ -53,7 +53,7 @@ CRISP-DM (CRoss Industry Standard Process for Data Mining):
 	
 Problem types: Classification, Regression (e.g. future demand), Clustering (e.g. Loyal, Somewhat Loyal, and likely to Switch), Recommendation
 
-Classification algorithms: Regression, Two-Class Boosted Decision Tree, Multiclass Decision Jungle, One-vs-All Multiclass
+Classification algorithms: Logistic Regression (with L1 and L2 regularization), Decision Trees/Classic Trees/CART/C4.5/C5.0, AdaBoost (Boosted Decision Trees), Two-Class Boosted Decision Tree, Multiclass Decision Jungle, One-vs-All Multiclass, Support Vector Machines, Random Forests, Neural Networks
 Regression algorithms: Bayesian Linear Regression, Boosted Decision Tree Regression, Neural Network Regression
 Clustering algorithms: K-Mans clustering
 
@@ -77,3 +77,5 @@ Consumers: People, Apps (Web, Mobile, Bots), Automated Systems
 
 
 Subspace Clustering
+
+**************************************************************************************************

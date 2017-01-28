@@ -1,79 +1,51 @@
-Quantia Analytics, LLC
-Descriptive vs Predictive vs. Prescriptive Analysis
+Probability
+	Helps determine distribution of random variables (discrete and continuous), create random samples for analysis, perform experiments
+	Correlation is not Causation
+	Random Variable is must to understand probability
+	Hyphothesis test fails doesn't mean null hypothesis is true
 
-4th wave: Artificial Intelligence, Nanotechnology and Biotechnology, Machine Learning, Data analytics
-Education -> Science and Math
-
-Obsolete jobs: Repetitive workers, Middle man (brokers, agents, tellers a.k.a. friction of capitalism), search engine jobs like paralegal in law firms
-
-Future jobs: Weakness in Robots and computers -> Robots weak in pattern recognitions -> Non repetitive and semi-skilled jobs (Gardner, Construction, Police, Sanitation), lawyer
-
-Commodity capital replaced by intellectual capital -> coal to rock and roll
-
-http://explore-data-science.thisismetis.com/about
-
-Linear Regression
-Logistic Regression
-K-means neighbors 
-K-means clusters
-C4.5, k-means, Support vector machines, Apriori, EM, PageRank, AdaBoost, kNN, Naïve Bayes, CART
-
-Sources: Social media, Advertising, Browsing, Online sales, Transportation, Cellular phone, IoT devices
-
-What is it?
-	Exploration and Quantitative analysis of
-	Structured and Unstructured data to
-	Develop Understanding, Extract Knowledge, and Formulate Actionable results
-
-What is goal?
-	Using Data to make Decisions that drive Actions.
-	Replace intuition with data drive analytical decisions
-	Transform data into Intellectual Property asset i.e. to derive value
-	Increase pace of action
-
-What it’s not? Retrospective Analysis like Business Intelligence (What happened, where are we) or Root Cause Analysis (Why did it happen)
-
-What it is? Predictive Analysis (What will happen), Real-time Analysis (What should I do), Machine Learning (interact with ML System in real time)
-
-Involves: Find data sources, Acquire data, Cleaning and Transform data, Understanding relationship in data, Presenting results, Deliver value from data
-
-Process: It’s iterative process with following activities: Data selection, Preprocessing, Transformation, Data mining, Interpretation and evaluation
-
-CCC Big Data Pipeline:
-	Acquisition/Recording, Extraction/Cleaning/Annotation, Integration/Aggregation/Representation, Analysis/Modeling, Interpretation
-	Big Data needs: Heterogeneity, Scale, Timeliness, Privacy, Human Collaboration
+Random Variable
+	Assigns a numerical value to each possible outcome of a random experiment
+	Not random variable: Today's weather (because it can be cloudy, rainy), color of car chosen, result of coin flip, price of the stock yesterday
+	Random variable: the number of millimeters of rainfall tomorrow in Redmond, for car color with assigned value (1=blue, 2= green), for coin flip (1=head, 0=tail), price of the stock tomorrow, the number of laps between yellow flags in an F1 race
+	Types of Random Variable: Discrete and Continuous
 	
-KDD (Knowledge Discovery in Databases) Process:
-	Selection, Preprocessing, Transformation, Data Mining, Interpretation/Evaluation
-
-CRISP-DM (CRoss Industry Standard Process for Data Mining):
-	Business Understanding, Data Understanding, Data Interpretation, Modeling, Evaluation, Deployment
-	Business Understanding: What do you really want to accomplish? What are the constraints? What are the risks? How will you evaluate the quality of the results?
-	Modeling: Predictive modeling mostly mean machine learning or statistical modeling
+Discrete Random Variable
+	Roll of a Die
+	Probability Mass Function (table below):
+	Outcome (x)	Probability (p)	P(X=x)=p
+	1			1/6				P(X=1)=1/6
+	2			1/6				P(X=2)=1/6
+	3			1/6				P(X=3)=1/6
+	4			1/6				P(X=4)=1/6
+	5			1/6				P(X=5)=1/6
+	6			1/6				P(X=6)=1/6
 	
-Problem types: Classification, Regression (e.g. future demand), Clustering (e.g. Loyal, Somewhat Loyal, and likely to Switch), Recommendation
 
-Classification algorithms: Regression, Two-Class Boosted Decision Tree, Multiclass Decision Jungle, One-vs-All Multiclass
-Regression algorithms: Bayesian Linear Regression, Boosted Decision Tree Regression, Neural Network Regression
-Clustering algorithms: K-Mans clustering
+	X		random variable, the value on the die when you roll it
+	x		outcome		
+	P(X=x) Probability that X will have outcome x
+	Sum of all probabilities must be 1
+	
+	Summerization of Distributions:
+	Mean (aka expectation) - measure of centrality for PMF
+	Variance - mean of the squared (not absolute) differences from the mean outcome
+	Standard Deviation - square root of Variance
+	
+	Special Propability Distributions: Bernoulli, Binomial
+	
+Continuous Random Variable
+Probability Distribution Function
+Cummulative Distribution FunctionCentral Limit Theorem
 
-Supervised and Unsupervised Learning
-Supervised Learning - you know what target value you are trying to predict (target value is contained in historical data); Classification and Regression algorithms
-Unsupervised Learning - you don't know what target values you are looking for; Clustering algorithms
+Descriptive Statistics (Visual): Histogram, Bar Chart, Pareto Chart, Scatter Plot
+Summary Statistics (Numerical): Sample Mean (vs. Populative Mean), Quantiles and Percentiles, Sample Median, Sample Variance, 5 Number Summary, Box Plot
 
-Model building is predictive, Policy Construction is prescriptive
+Z-Scores
+	Number of standard deviations above or below the mean
+	Where a point is, relative to other points in distribution
 
-Tools: Azure ML Studio, R (R Studio), Python (Spyder), SQL, NoSQL, Git, Spark, Hadoop, UNIX, Excel, Tableau, Cortana Intelligence Suite, Jupytor Notebook
-Techniques:
+Correlation
+Covariance
 
-Cortana Intelligence Suite (Stack):
-Data Sources: Databases, feeds, phone apps, IoTs, sensors
-Data Management: Data Factory, Data Catalog, Event Hub
-Big Data Stores: Data Lake Store, SQL Data  Warehouse, SQL server
-Machine Learning and Analytics: Azure ML, Data Lake Analytics, Hadoop and Spark (R and Python), Stream Analysis (Python) 
-Intelligence: Cognative Services, Bot Framework, Cortana
-Dashboards and Visualizations: Power BI, Smart Phone
-Consumers: People, Apps (Web, Mobile, Bots), Automated Systems
-
-
-Subspace Clustering
+Simpson's Paradox
